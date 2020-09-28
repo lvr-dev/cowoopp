@@ -1,0 +1,7 @@
+{
+  "name": "cowoop",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
