@@ -1,0 +1,125 @@
+[
+    {
+      "id": "e519ddef-cb17-402c-9676-36ecb89dc5fe",
+      "lastName": "Jansen",
+      "firstName": "Frits",
+      "since": "2019-02-01",
+      "until": "2019-11-01",
+      "status": "assigned",
+      "visible": true,
+      "email": "frits.jansen@divotion.com",
+      "phone": "0612345678",
+      "client": "Rodamco"
+    },
+    {
+      "id": "91711c1a-5e23-467d-b01f-1d6f16138a5e",
+      "lastName": "Groot",
+      "firstName": "Kees",
+      "prefix": "de",
+      "client": "Avico",
+      "since": "2018-01-01",
+      "until": "2019-07-01",
+      "status": "assigned",
+      "visible": false,
+      "email": "kees@divotion.com",
+      "phone": "0612345678"
+    },
+    {
+      "id": "2ac51bb9-526c-4645-b446-1b931a3e1d89",
+      "lastName": "Karabiyik",
+      "firstName": "Fazia",
+      "client": "ABN Bank",
+      "since": "2019-03-15",
+      "until": "2020-03-01",
+      "status": "assigned",
+      "visible": true,
+      "email": "fazia.karabiyik@jdriven.com",
+      "phone": "0612345678"
+    },
+    {
+      "id": "d56428ca-0111-49b1-9dd1-ca2c9dabee26",
+      "lastName": "Taylor",
+      "firstName": "Albert",
+      "client": "Atlas Co",
+      "since": "2017-01-01",
+      "until": "2019-07-01",
+      "status": "expiring",
+      "visible": true,
+      "email": "albert.taylor@divotion.nl",
+      "phone": "0612345678"
+    },
+    {
+      "id": "327d9783-20fe-4679-8bd1-c9e340d615b9",
+      "lastName": "Hansen",
+      "firstName": "Nina",
+      "client": "Kleembach",
+      "since": "2019-06-01",
+      "until": "2020-01-01",
+      "status": "assigned",
+      "visible": true,
+      "email": "ninahansen@jcore.com",
+      "phone": "0612345678"
+    },
+    {
+      "id": "51126dbb-8eb2-4b09-9c81-06a7fc533429",
+      "lastName": "Ravensteijn",
+      "firstName": "Ronald",
+      "prefix": "van",
+      "client": "Rover BV",
+      "since": "2018-06-01",
+      "until": "2021-11-01",
+      "status": "lookout",
+      "visible": true,
+      "email": "ronald.ravensteijn@divotion.com",
+      "phone": "0612345678"
+    },
+    {
+      "id": "7468bb5e-9510-479b-b8d8-f53f5a74b434",
+      "lastName": "Karsten",
+      "firstName": "Fanny",
+      "client": "Leeman",
+      "since": "2018-01-01",
+      "until": "2019-12-01",
+      "status": "assigned",
+      "visible": false,
+      "email": "fanny.karsten@divotion.nl",
+      "phone": "0612345678"
+    },
+    {
+      "id": "b9f34f90-0917-4a8a-b1e9-240659f91ca5",
+      "lastName": "Kemperman",
+      "firstName": "Kevin",
+      "client": "Rtv Friesland",
+      "since": "2017-06-01",
+      "until": "2019-08-01",
+      "status": "lookout",
+      "visible": true,
+      "email": "kevin.kemperman@jdriven.com",
+      "phone": "0612345678"
+    },
+    {
+      "id": "b759efb7-1c57-4d04-9893-847619c373c6",
+      "lastName": "Caron",
+      "firstName": "Joost",
+      "client": "Rtv Friesland",
+      "since": "2017-04-01",
+      "until": "2019-06-01",
+      "status": "unassigned",
+      "visible": true,
+      "email": "caron.joost@caron.com",
+      "phone": "0612345678"
+    },
+    {
+      "id": "1231179a-6bd5-4fd5-b610-d185031256d8",
+      "lastName": "Vaanders",
+      "firstName": "Stefan",
+      "client": "Carico",
+      "since": "2019-1-01",
+      "until": "2019-10-01",
+      "status": "on the lookout",
+      "visible": true,
+      "email": "stefan@yahoo.com",
+      "phone": "0612345678"
+    }
+]
+

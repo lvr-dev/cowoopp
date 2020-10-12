@@ -1,0 +1,35 @@
+<app-cowoo-header [title]="'coworker'"></app-cowoo-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size-lg="6" offset-lg="3" size="12">
+        <ion-card-header *ngIf="!coworker">
+          <ion-card-title>Coworker not found</ion-card-title>
+        </ion-card-header>
+        <div class="flex-row">
+          <ion-avatar class="flex-item-center"><img [src]="avatarImg"></ion-avatar>
+          <h2 class="flex-item-center">{{fullName}}</h2>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-content>
+<ion-tabs *ngIf="coworker">
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="current">
+        <ion-icon name="business"></ion-icon>
+        <ion-label>Current Assignment</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="former">
+        <ion-icon name="file-tray-stacked"></ion-icon>
+        <ion-label>Former Assignments</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="contact">
+        <ion-icon name="call"></ion-icon>
+        <ion-label>Contact Details</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+</ion-tabs>
+</ion-content>

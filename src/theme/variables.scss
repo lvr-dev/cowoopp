@@ -3,25 +3,26 @@
 
 /** Ionic CSS Variables **/
 :root {
+
   /** primary **/
-  --ion-color-primary: #3880ff;
-  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary: #1F7EBD;
+  --ion-color-primary-rgb: 31, 126, 189;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary-shade: #19669a;
+  --ion-color-primary-tint: #3a9ddf;
 
   /** secondary **/
-  --ion-color-secondary: #3dc2ff;
-  --ion-color-secondary-rgb: 61, 194, 255;
+  --ion-color-secondary: #616161;
+  --ion-color-secondary-rgb: 97, 97, 97;
   --ion-color-secondary-contrast: #ffffff;
   --ion-color-secondary-contrast-rgb: 255, 255, 255;
-  --ion-color-secondary-shade: #36abe0;
-  --ion-color-secondary-tint: #50c8ff;
+  --ion-color-secondary-shade: #4d4d4d;
+  --ion-color-secondary-tint: #E8E8E8;
 
   /** tertiary **/
-  --ion-color-tertiary: #5260ff;
-  --ion-color-tertiary-rgb: 82, 96, 255;
+  --ion-color-tertiary: #E8E8E8;
+  --ion-color-tertiary-rgb: 232, 232, 232;
   --ion-color-tertiary-contrast: #ffffff;
   --ion-color-tertiary-contrast-rgb: 255, 255, 255;
   --ion-color-tertiary-shade: #4854e0;
@@ -230,3 +231,72 @@
     --ion-card-background: #1e1e1e;
   }
 }
+
+body {
+  font-family: 'PT-Sans', 'sans-serif';
+  font-size: 16px;
+}
+
+ion-title.header-title {
+  font-family: 'ArvoBold', 'sans-serif';
+  font-size: 1.6em;
+}
+
+
+@font-face {
+  font-family: 'PT-Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/fonts/PT_Sans/PTSans-regular.ttf');
+}
+
+@font-face {
+  font-family: 'PT-SansItalic';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../assets/fonts/PT_Sans/PTSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'PT-SansBold';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../assets/fonts/PT_Sans/PTSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'PT-SansBoldItalic';
+  font-style: italic;
+  font-weight: bold;
+  src: url('../assets/fonts/PT_Sans/PTSans-BoldItalic.ttf');
+}
+
+
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/fonts/Arvo/Arvo-regular.ttf');
+}
+
+@font-face {
+  font-family: 'ArvoItalic';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../assets/fonts/Arvo/Arvo-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'ArvoBold';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../assets/fonts/Arvo/Arvo-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'ArvoBoldItalic';
+  font-style: italic;
+  font-weight: bold;
+  src: url('../assets/fonts/Arvo/Arvo-BoldItalic.ttf');
+}
+

@@ -1,0 +1,36 @@
+
+.coworker-name {
+  font-family: 'ArvoBold', 'sans-serif';
+  margin-left: 1em;
+  font-size: 1em;
+  font-weight: 700;
+  max-width: 66%;
+  height: 100%;
+  align-self: center;
+}
+
+.coworker-prefix {
+  margin: 0 1px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p.top {
+  margin-top: 1em;
+}
+
+ion-row.tertiary {
+  background-color: var(--ion-color-secondary-tint);
+}
+
+ion-row.padded {
+  padding: 4px;
+}
+
+span.label {
+  font-size: 0.9em;
+  font-weight: 600;
+}

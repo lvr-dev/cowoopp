@@ -1,0 +1,15 @@
+<app-cowoo-header></app-cowoo-header>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col offset-sm="2" offset-lg="3" size-sm="8" size-lg="6">
+      <ion-list role="list">
+        <app-coworker-item
+                *ngFor="let coworker of coworkers$ | async"
+                [coworker]="coworker"
+        ></app-coworker-item>
+      </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

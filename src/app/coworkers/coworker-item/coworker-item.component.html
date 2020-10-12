@@ -1,0 +1,32 @@
+<ion-item role="listitem" lines="none">
+  <ion-grid>
+    <ion-row class="tertiary padded clickable" [routerLink]="['./',  coworker.id]">
+      <ion-avatar><img [src]="avatarImg"></ion-avatar>
+        <div class="coworker-name">{{coworker.firstName}}
+          <span *ngIf="coworker.prefix" class="coworker-prefix">{{coworker.prefix}}
+                  </span>{{coworker.lastName}}
+        </div>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" size-sm="6">
+        <p class="top">
+          <span class="label">Client:</span>
+          {{coworker.client | defaultValue: 'no client'}}
+        </p>
+        <p>
+          <span class="label">Status:</span>
+          {{coworker.status}}
+        </p>
+      </ion-col>
+      <ion-col *ngIf="coworker.client" size="12" size-sm="6">
+        <p class="top">
+          <span class="label">Since:</span>
+          {{coworker.since}}
+        </p>
+        <p><span class="label">Until:</span>
+          {{coworker.until | defaultValue: 'unknown'}}
+        </p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-item>
